@@ -1,0 +1,42 @@
+[
+	{
+		"id": 1,
+		"name": "art",
+		"img": "img"
+	},
+	{
+		"id": 2,
+		"name": "сollectibles",
+		"img": "img"
+	},
+	{
+		"id": 3,
+		"name": "music",
+		"img": "img"
+	},
+	{
+		"id": 4,
+		"name": "photography",
+		"img": "img"
+	},
+	{
+		"id": 5,
+		"name": "video",
+		"img": "img"
+	},
+	{
+		"id": 6,
+		"name": "utility",
+		"img": "img"
+	},
+	{
+		"id": 7,
+		"name": "sport",
+		"img": "img"
+	},
+	{
+		"id": 8,
+		"name": "virtual Worlds",
+		"img": "img"
+	}
+]

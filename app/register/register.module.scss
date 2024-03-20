@@ -1,0 +1,33 @@
+.register {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  .content {
+		max-width: 460px;
+  }
+  form {
+		max-width: 330px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  label {
+    max-width: 330px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid #858584;
+    background: #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+  }
+  input {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #2b2b2b;
+  }
+}

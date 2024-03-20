@@ -1,0 +1,13 @@
+.header {
+	padding: 20px 0;
+	&__container {
+		max-width: 1210px;
+		padding: 0 15px;
+		margin: 0 auto;
+	}
+	&__row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+}

@@ -1,0 +1,20 @@
+[
+	{
+		"id": 1,
+		"name": "DSGN Animals",
+		"idUser": 1,
+		"idPosts": [4, 2, 19]
+	},
+	{
+		"id": 2,
+		"name": "Magic Mushrooms",
+		"idUser": 2,
+		"idPosts": [3, 5, 15]
+	},
+	{
+		"id": 3,
+		"name": "Disco Machines",
+		"idUser": 3,
+		"idPosts": [7, 8, 11]
+	}
+]

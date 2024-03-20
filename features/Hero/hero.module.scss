@@ -1,0 +1,21 @@
+.hero {
+
+	overflow-x: hidden;
+	padding: 80px 0;
+
+	.post {
+		transform: translateX(1000px);
+	}
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__text {
+		max-width: 510px;
+	}
+	&__post {
+		max-width: 510px;
+		img:first-child {height: 401px;}	
+	}
+}
