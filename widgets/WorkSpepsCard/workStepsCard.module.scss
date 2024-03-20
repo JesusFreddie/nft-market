@@ -1,0 +1,15 @@
+.card {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px 40px 30px;
+
+	gap: 20px;
+
+	background-color: #3B3B3B;
+	border-radius: 20px;
+
+	.text {
+		text-align: center;
+	}
+}

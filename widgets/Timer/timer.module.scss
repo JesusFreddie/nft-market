@@ -1,0 +1,37 @@
+.timer {
+  padding: 30px;
+  backdrop-filter: blur(10px);
+  background: rgba(59, 59, 59, 0.5);
+  font-family: var(--font-family);
+  color: #fff;
+  line-height: 110%;
+  font-weight: 400;
+  font-size: 12px;
+	max-width: 295px;
+	border-radius: 20px;
+	.action {
+		margin-bottom: 10px;
+	}
+
+  .time {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 120%;
+    text-transform: capitalize;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 5px;
+  }
+  .measure {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110%;
+    color: #fff;
+  }
+  .content {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+  }
+}

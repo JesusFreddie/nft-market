@@ -1,0 +1,71 @@
+.user {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  align-items: center;
+  text-align: center;
+
+  background-color: #3b3b3b;
+
+  .name {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: capitalize;
+    text-align: center;
+
+    margin-bottom: 5px;
+  }
+
+  .totalSales {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #858584;
+
+    .value {
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+      color: #fff;
+
+      margin-left: 10px;
+    }
+  }
+
+  .avatar {
+    margin-bottom: 20px;
+    img {
+      width: 120px;
+      height: 120px;
+    }
+  }
+
+  &__id {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 30px;
+    height: 30px;
+
+    top: 18px;
+    left: 20px;
+
+    background-color: #2b2b2b;
+    border-radius: 50%;
+
+		font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #858584;
+  }
+}

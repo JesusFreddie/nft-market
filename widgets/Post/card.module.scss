@@ -1,0 +1,40 @@
+.post {
+  background-color: var(--card-bg);
+  border-radius: 20px;
+  overflow: hidden;
+
+  &__text {
+    padding: 6% 5%;
+  }
+	.img img {
+		height: 268px;
+	}
+  &__author {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  &__data {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #fff;
+    * {
+      display: flex;
+      flex-direction: column;
+			gap: 8px;
+    }
+    span {
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 110%;
+      color: #858584;
+    }
+  }
+}

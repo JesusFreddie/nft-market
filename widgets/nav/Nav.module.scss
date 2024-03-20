@@ -1,0 +1,32 @@
+.nav {
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  &__link {
+		position: relative;
+    padding: 12px 20px;
+		color: #fff;
+
+		&::after {
+			transition: transform .2s ease;
+			position: absolute;
+			bottom: 5px;
+			left: 50%;
+			transform: translateX(-50%) scale(0);
+			content: '';
+			width: 70%;
+			height: 2px;
+			background-color: #fff;
+		}
+		&:hover::after {
+			transform: translateX(-50%) scale(1);
+		}
+  }
+}

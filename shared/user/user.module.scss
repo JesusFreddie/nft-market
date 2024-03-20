@@ -1,0 +1,15 @@
+.user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #fff;
+
+  img {
+    width: 24px !important;
+    height: 24px !important;
+  }
+}

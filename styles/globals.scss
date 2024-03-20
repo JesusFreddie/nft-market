@@ -1,0 +1,20 @@
+body {
+	display: flex;
+	min-height: 100vh;
+	justify-content: space-between;
+	flex-direction: column;
+
+	background-color: var(--body-bg);
+	font-family: var(--second-family);
+	font-family: var(--second-family);
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 160%;
+	color: #fff;
+}
+
+.container {
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 0 15px;
+}

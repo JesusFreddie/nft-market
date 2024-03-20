@@ -1,0 +1,42 @@
+.card {
+  .posts {
+    display: grid;
+    gap: 15px;
+		grid-template-columns: repeat(3, 1fr);
+		margin-bottom: 15px;
+		*:not(:first-child)	 {
+			height: 100px;
+			img {
+				height: 100px;
+			}
+		}
+    *:first-child {
+			height: 330px;
+      grid-column-start: 1;
+      grid-column-end: 4;
+    }
+    .all {
+      background-color: #a259ff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 20px;
+      font-family: var(--font-family);
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 160%;
+      text-transform: capitalize;
+      text-align: center;
+      color: #fff;
+    }
+  }
+	.autor {
+		display: flex;
+		align-items: center;
+		gap: 12px;
+		img {
+			width: 24px;
+			height: 24px;
+		}
+	}
+}
